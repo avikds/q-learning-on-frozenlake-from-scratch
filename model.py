@@ -9,7 +9,6 @@ import numpy as np
 # Step 1 - init_q_table
 import numpy as np
 
-
 def init_q_table(num_states, num_actions):
     """Return a zero-initialized Q-table of shape (num_states, num_actions)."""
     # TODO: build a 2D float64 numpy array of zeros sized by states and actions.
