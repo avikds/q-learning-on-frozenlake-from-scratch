@@ -27,6 +27,17 @@ python scaffold.py
 - [x] **15.** run_greedy_episode
 - [x] **16.** evaluate_success_rate
 
----
+## Results
 
-Built on Deep-ML.
+```
+FrozenLake: 16 states, 4 actions
+Q-table shape: (16, 4)
+Reward history length: 2000
+Mean reward first 100 episodes: 0.010
+Mean reward last 100 episodes:  0.000
+Greedy policy (first 8 states): [0, 0, 0, 0, 0, 0, 0, 0]
+Greedy action at state 0: 0
+Max Q-value at state 0: 0.0000
+Single greedy episode reached goal: False
+Greedy success rate over 100 episodes: 0.00
+```
